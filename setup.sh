@@ -19,5 +19,7 @@ git clone https://github.com/luballe/selenium_phantom
 chmod 755 selenium_phantom/1-CargarMapa.sh
 # Running selenium with phantomjs
 cd selenium_phantom
+echo "Executing..."
 ./1-CargarMapa.sh &
+echo "Showing Results..."
 tail -f 1-CargarMapa.txt
