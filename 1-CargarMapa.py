@@ -69,7 +69,7 @@ try:
 
   # Se imprime el tiempo de carga del portal
   #print "Portal cargado en: " + str(end - start) + " secs"
-  print str(end - start)
+  # print str(end - start)
   with open(logName, "a") as myfile:
     myfile.write(str(end - start)+"\n")
   #print "File written!"
