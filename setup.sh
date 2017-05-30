@@ -21,5 +21,6 @@ chmod 755 selenium_phantom/1-CargarMapa.sh
 cd selenium_phantom
 echo "Executing..."
 ./1-CargarMapa.sh &
+# Showing results from log file
 echo "Showing Results..."
-# tail -f 1-CargarMapa.txt
+tail -f 1-CargarMapa.txt
