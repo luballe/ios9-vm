@@ -18,5 +18,6 @@ git clone https://github.com/luballe/selenium_phantom
 # Change permissions over the shell script
 chmod 755 selenium_phantom/1-CargarMapa.sh
 # Running selenium with phantomjs
-./selenium_phantom/1-CargarMapa.sh &
-tail -f selenium_phantom/1-CargarMapa.txt
+cd selenium_phantom
+./1-CargarMapa.sh &
+tail -f 1-CargarMapa.txt
