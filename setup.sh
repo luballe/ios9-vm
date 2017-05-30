@@ -22,5 +22,5 @@ cd selenium_phantom
 echo "Executing..."
 ./1-CargarMapa.sh &
 # Showing results from log file
-echo "Showing Results..."
+echo "Showing Results from log..."
 tail -f 1-CargarMapa.txt
