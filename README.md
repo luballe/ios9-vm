@@ -1,4 +1,4 @@
-# Installation and configuration of Selenium Python libraries with PhantonJS (Headless browser). There are som examples included.
+# Installation and configuration of Selenium Python libraries with PhantonJS (Headless browser). There are some examples included.
 
 To install and run execute:
 
