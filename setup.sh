@@ -1,5 +1,3 @@
-# Installing the best terminal multiplexer and the best interactive monitoring tool (just to make sure the data logs are correct)
-apt-get install -y htop tmux
 # Installing nodejs
 curl -sL https://deb.nodesource.com/setup_6.x | sudo -E bash -
 apt-get install -y nodejs
